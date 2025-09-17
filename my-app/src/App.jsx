@@ -21,20 +21,20 @@ import React, { useState,useEffect } from "react";
 //? Exercise 2: Create a counter app with increment/decrement/reset.
 
 
-function Counter(){
-  const[count,setCount]=useState(0)
-  return (
-    <div>
-      <p>Count:{count}</p>
-    <button onClick={()=>setCount(prev=>prev+1)}>Increment</button>
-    <button onClick={()=>setCount(prev=>prev-1)}>  Decrement</button>
-    <button onClick={()=>setCount(0)}>Reset</button>
-    </div>
-  )
-}
-function App() {
-  return <Counter />;
-}
+// function Counter(){
+//   const[count,setCount]=useState(0)
+//   return (
+//     <div>
+//       <p>Count:{count}</p>
+//     <button onClick={()=>setCount(prev=>prev+1)}>Increment</button>
+//     <button onClick={()=>setCount(prev=>prev-1)}>  Decrement</button>
+//     <button onClick={()=>setCount(0)}>Reset</button>
+//     </div>
+//   )
+// }
+// function App() {
+//   return <Counter />;
+// }
 
 // ? Exercise 3: Render a list of tasks and mark completed ones differently.
 // function Tasks(){
@@ -83,7 +83,7 @@ function App() {
 // }
 
 
-//? Q2 : initialise ethe use state hook with the python full stack skills and display all skills using map method . make a onclick to change it into java full stack skills
+//? Q2 : initialise the use state hook with the python full stack skills and display all skills using map method . make a onclick to change it into java full stack skills
 
 // function ArrayMap() {
 //   const [skills, setSkills] = useState(["Python", "Django", "SQL"]);
